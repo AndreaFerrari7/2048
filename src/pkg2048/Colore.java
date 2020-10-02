@@ -15,7 +15,7 @@ import javax.swing.JFrame;
 
 /**
  *
- * @author gioele
+ * @author Gioelio
  */
 public class Colore extends Thread{
     
@@ -37,9 +37,9 @@ public class Colore extends Thread{
     
     @Override
     public void run(){
-        int r = 0;
-        int g = 0;
-        int b = 0;
+        int r = 15;
+        int g = 15;
+        int b = 15;
         int valueColor;
         int a=0;
         int n = 1;
